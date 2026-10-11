@@ -1,0 +1,24 @@
+# Secrets
+.env
+*.p8
+*.pem
+*.key
+config.txt
+
+# Generated reports (curated examples live in sample_output/)
+output/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Excel lock files and OS clutter
+~$*.xlsx
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*

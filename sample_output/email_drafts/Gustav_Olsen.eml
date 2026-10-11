@@ -1,0 +1,104 @@
+From: credit.risk.monitoring@nordicbank.example
+To: gustav.olsen@nordicbank.example
+Subject:
+ Action required: 6 high-risk customers in your portfolio (September 2026)
+Date: Sat, 10 Oct 2026 18:55:40 +0200
+X-Unsent: 1
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0698448403313022587=="
+
+--===============0698448403313022587==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Gustav,
+
+The September 2026 risk monitoring snapshot shows the following customer(s) i=
+n your portfolio with a risk rating of 8 or higher:
+
+   Org ID       Customer Name                 Loan Type  Risk Rating Branch
+ORG100231      Hededesign A/S                 Term Loan           10 Aarhus
+ORG100045         Bro Byg ApS   Asset Finance / Leasing            8 Aarhus
+ORG100770 Hede R=C3=A5dgivning A/S        Overdraft Facility            8 Aar=
+hus
+ORG100748   Lysr=C3=A5dgivning ApS                 Term Loan            8 Aar=
+hus
+ORG100751        Nordagro A/S        Overdraft Facility            8 Aarhus
+ORG100271  Strandindustri ApS Revolving Credit Facility            8 Aarhus
+
+Please review these customers and document your follow-up.
+
+Best regards,
+Credit Risk Monitoring
+
+--===============0698448403313022587==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+
+        <p>Hi Gustav,</p>
+        <p>The <b>September 2026</b> risk monitoring snapshot shows the follo=
+wing customer(s) in your portfolio
+        with a risk rating of <b>8 or higher</b>:</p>
+        <table class=3D"dataframe">
+  <thead>
+    <tr style=3D"text-align: left;">
+      <th>Org ID</th>
+      <th>Customer Name</th>
+      <th>Loan Type</th>
+      <th>Risk Rating</th>
+      <th>Branch</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ORG100231</td>
+      <td>Hededesign A/S</td>
+      <td>Term Loan</td>
+      <td>10</td>
+      <td>Aarhus</td>
+    </tr>
+    <tr>
+      <td>ORG100045</td>
+      <td>Bro Byg ApS</td>
+      <td>Asset Finance / Leasing</td>
+      <td>8</td>
+      <td>Aarhus</td>
+    </tr>
+    <tr>
+      <td>ORG100770</td>
+      <td>Hede R=C3=A5dgivning A/S</td>
+      <td>Overdraft Facility</td>
+      <td>8</td>
+      <td>Aarhus</td>
+    </tr>
+    <tr>
+      <td>ORG100748</td>
+      <td>Lysr=C3=A5dgivning ApS</td>
+      <td>Term Loan</td>
+      <td>8</td>
+      <td>Aarhus</td>
+    </tr>
+    <tr>
+      <td>ORG100751</td>
+      <td>Nordagro A/S</td>
+      <td>Overdraft Facility</td>
+      <td>8</td>
+      <td>Aarhus</td>
+    </tr>
+    <tr>
+      <td>ORG100271</td>
+      <td>Strandindustri ApS</td>
+      <td>Revolving Credit Facility</td>
+      <td>8</td>
+      <td>Aarhus</td>
+    </tr>
+  </tbody>
+</table>
+        <p>Please review these customers and document your follow-up.</p>
+        <p>Best regards,<br>Credit Risk Monitoring</p>
+   =20
+
+--===============0698448403313022587==--

@@ -1,0 +1,814 @@
+ORG_ID,BRANCH_ID,BRANCH_NAME,CUSTOMER_RESPONSIBLE_NAME,EMAIL,PHONE,EMPLOYEE_ID,ROLE_TITLE,VALID_FROM,LAST_UPDATED_TS
+ORG100187,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2024-02-04,2025-07-04 09:00:00
+ORG100127,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2025-08-02,2025-01-27 09:00:00
+ORG100026,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2025-12-03,2025-08-16 09:00:00
+ORG100196,FI01,Helsinki,Helena Alanko,Helena.Alanko@Nordicbank.Example,+358446247510,E1031,Relationship Manager,2024-11-03,2025-10-17 09:00:00
+ORG100048,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2024-05-22,2025-12-24 09:00:00
+ORG100236,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2023-01-14,2025-07-01 09:00:00
+ORG100183,NO04,Stavanger,Frode Engen,Frode.Engen@Nordicbank.Example,004747672423,E1010,Corporate Banker,2023-11-13,2025-09-07 09:00:00
+ORG100703,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2022-10-17,2025-11-15 09:00:00
+ORG100480,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2025-08-28,2025-04-10 09:00:00
+ORG100489,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2024-06-09,2025-02-12 09:00:00
+ORG100647,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2023-03-09,2025-08-11 09:00:00
+ORG100206,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2024-05-05,2025-01-04 09:00:00
+ORG100792,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2024-10-29,2025-03-22 09:00:00
+ORG100298,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2024-06-13,2025-07-20 09:00:00
+ORG100720,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2023-05-22,2025-03-24 09:00:00
+ORG100005,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2025-04-06,2025-01-17 09:00:00
+ORG100334,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2024-08-13,2025-01-11 09:00:00
+ORG100225,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2025-05-19,2025-11-01 09:00:00
+ORG100454,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2025-02-02,2025-03-15 09:00:00
+ORG100247,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2025-06-01,2025-05-26 09:00:00
+ORG100431,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2023-11-09,2025-09-24 09:00:00
+ORG100099,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2022-11-14,2025-05-17 09:00:00
+ORG100793,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2023-02-01,2025-06-01 09:00:00
+ORG100608,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-06-15,2025-10-08 09:00:00
+ORG100758,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2022-08-30,2025-03-16 09:00:00
+ORG100528,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2024-12-31,2025-01-14 09:00:00
+ORG100651,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2023-01-24,2025-04-12 09:00:00
+ORG100561,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2022-09-11,2025-02-20 09:00:00
+ORG100532,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2024-09-22,2025-10-13 09:00:00
+ org100732,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2022-09-08,2025-01-25 09:00:00
+ORG100673,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-07-22,2025-06-10 09:00:00
+ORG100261,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2024-11-15,2025-02-06 09:00:00
+ORG100098,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2025-02-20,2025-07-06 09:00:00
+ORG100675,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2023-01-22,2025-07-13 09:00:00
+ORG100090,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2024-09-17,2025-02-18 09:00:00
+ORG100300,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2025-07-30,2025-10-16 09:00:00
+ORG100644,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2023-07-25,2025-02-01 09:00:00
+ORG100400,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2022-09-26,2025-11-02 09:00:00
+ORG100386,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2024-06-24,2025-10-22 09:00:00
+ORG100569,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2025-04-27,2025-09-13 09:00:00
+ORG100275,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2023-03-28,2025-04-03 09:00:00
+ORG100153,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2022-12-14,2025-09-23 09:00:00
+ORG100027,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2025-12-09,2025-05-14 09:00:00
+ORG100655,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2024-06-26,2025-06-20 09:00:00
+ORG100764,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2026-02-26,2025-03-14 09:00:00
+ORG100107,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2024-12-06,2025-10-23 09:00:00
+ORG100148,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2023-02-23,2025-08-17 09:00:00
+ORG100790,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2025-03-01,2025-04-28 09:00:00
+ORG100713,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2025-02-10,2025-11-20 09:00:00
+ORG100744,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2024-09-19,2025-02-16 09:00:00
+ORG100439,DK01,København,Arne Svendsen,Arne.Svendsen@Nordicbank.Example,+45 765 13 338,E1023,Customer Responsible,2024-06-08,2025-12-04 09:00:00
+ORG100450,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2024-08-04,2025-06-11 09:00:00
+ORG100095,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2024-09-02,2025-06-04 09:00:00
+ORG100542,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2023-09-11,2025-06-08 09:00:00
+ORG100133,SE01,Stockholm City,Isabella Moberg,Isabella.Moberg@Nordicbank.Example,79325288,E1015,Corporate Banker,2023-08-31,2025-08-24 09:00:00
+ORG100460,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2025-04-07,2025-02-05 09:00:00
+ORG900006,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2019-01-01,2024-06-01 09:00:00
+ORG100436,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2022-12-22,2025-05-08 09:00:00
+ORG100172,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2024-09-06,2025-03-24 09:00:00
+ORG100075,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2022-11-21,2025-09-17 09:00:00
+ORG100549,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2026-01-14,2025-05-09 09:00:00
+ORG100786,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2024-04-05,2025-08-13 09:00:00
+ORG100387,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2024-05-26,2025-05-28 09:00:00
+ORG100678,NO03,Trondheim,Kristin Karlsen,Kristin.Karlsen@Nordicbank.Example,42832764,E1008,Senior Relationship Manager,2023-04-10,2025-06-17 09:00:00
+ORG100147,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2025-08-05,2025-05-21 09:00:00
+ORG100244,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2025-11-06,2025-03-21 09:00:00
+ org100278,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2025-05-31,2025-01-12 09:00:00
+ORG100205,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2024-07-27,2025-10-16 09:00:00
+ORG100181,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2024-05-23,2025-10-05 09:00:00
+ORG100380,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2025-09-20,2025-04-25 09:00:00
+ORG100632,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2023-10-05,2025-05-24 09:00:00
+ORG100321,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2024-02-01,2025-12-05 09:00:00
+ORG100708,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2025-03-17,2025-03-03 09:00:00
+ORG100470,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2022-08-31,2025-08-24 09:00:00
+ORG100346,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2023-05-18,2025-02-02 09:00:00
+ORG100779,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2023-12-15,2025-10-01 09:00:00
+ORG100218,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2023-07-18,2025-01-27 09:00:00
+ORG100723,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2022-10-15,2025-04-23 09:00:00
+ORG100614,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2025-05-10,2025-01-11 09:00:00
+ORG100523,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2024-09-17,2025-08-05 09:00:00
+ORG100282,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2025-01-14,2025-10-27 09:00:00
+ORG100555,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2024-09-27,2025-01-09 09:00:00
+ORG100750,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2023-03-09,2025-10-07 09:00:00
+ORG100065,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2023-06-30,2025-04-03 09:00:00
+ORG100192,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2023-11-25,2025-08-01 09:00:00
+ORG100508,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2025-07-19,2025-06-26 09:00:00
+ORG100648,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2025-09-02,2025-01-20 09:00:00
+ORG100110,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Relationship Manager,2024-09-11,2023-03-15 09:00:00
+ORG100518,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-01-26,2025-11-27 09:00:00
+ORG900004,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2019-01-01,2024-06-01 09:00:00
+ORG100345,DK03,Odense,Tom Andersen,Tom.Andersen@Nordicbank.Example,+45 797 88 208,E1028,Senior Relationship Manager,2024-05-30,2025-12-18 09:00:00
+ORG100224,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Customer Responsible,2022-09-28,2023-03-15 09:00:00
+ORG100175,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2026-01-08,2025-08-12 09:00:00
+ORG100702,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2026-01-11,2025-12-16 09:00:00
+ORG100152,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2024-06-19,2025-04-02 09:00:00
+ORG100741,NO04,Stavanger,Linda Ahmed,Linda.Ahmed@Nordicbank.Example,+4742269166,E1012,Customer Responsible,2024-12-07,2025-04-09 09:00:00
+ org100062,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2023-04-11,2025-09-08 09:00:00
+ORG100766,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2025-08-21,2025-03-12 09:00:00
+ORG100040,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2024-04-05,2025-07-03 09:00:00
+ORG100756,DK02,Aarhus,Jannie Andresen,Jannie.Andresen@Nordicbank.Example,+4570647468,E1026,Customer Responsible,2023-07-31,2025-05-02 09:00:00
+ORG100404,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2024-06-03,2025-01-18 09:00:00
+ORG100351,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-02-06,2025-04-04 09:00:00
+ORG100305,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2023-02-18,2025-12-11 09:00:00
+ORG100402,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2025-12-26,2025-03-22 09:00:00
+ORG100068,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2024-11-03,2025-11-21 09:00:00
+ORG100657,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2023-03-02,2025-11-22 09:00:00
+ORG100592,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2024-09-19,2025-11-19 09:00:00
+ORG100536,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-11-25,2025-05-22 09:00:00
+ORG100440,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2024-11-06,2025-08-24 09:00:00
+ORG100787,FI02,Tampere,Jussi Liimatainen,Jussi.Liimatainen@Nordicbank.Example,427868011,E1036,Senior Relationship Manager,2025-04-10,2025-08-01 09:00:00
+ORG100293,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2024-10-16,2025-07-23 09:00:00
+ORG100297,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2023-04-19,2025-10-17 09:00:00
+ORG100519,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2022-09-09,2025-01-21 09:00:00
+ORG100365,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2024-06-28,2025-01-18 09:00:00
+ORG100578,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2024-11-28,2025-11-25 09:00:00
+ORG100195,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2025-05-31,2025-10-10 09:00:00
+ORG100755,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2025-01-07,2025-05-07 09:00:00
+ORG100589,NO03,Trondheim,Bjørn Ahmed,Bjorn.Ahmed@Nordicbank.Example,+47 403 05 641,E1009,Corporate Banker,2024-05-21,2025-07-17 09:00:00
+ORG100125,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2023-07-18,2025-10-01 09:00:00
+ORG100671,SE01,Stockholm City,Elizabeth Andersen,Elizabeth.Andersen@Nordicbank.Example,+46 748 01 845,E1013,Customer Responsible,2025-11-28,2025-03-17 09:00:00
+ORG100139,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2022-11-10,2025-08-04 09:00:00
+ORG100286,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-10-21,2025-11-13 09:00:00
+ORG100557,FI01,Helsinki,Marko Järvinen,Marko.Jarvinen@Nordicbank.Example,+358 483 84 2513,E1032,Senior Relationship Manager,2024-04-18,2025-11-27 09:00:00
+ORG100488,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2024-08-22,2025-10-20 09:00:00
+ORG100692,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2025-02-06,2025-08-12 09:00:00
+ORG100397,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2024-08-26,2025-05-28 09:00:00
+ORG100191,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2023-10-21,2025-08-14 09:00:00
+ORG100482,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2023-01-14,2025-09-17 09:00:00
+ORG100162,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2024-08-01,2025-02-26 09:00:00
+ORG100590,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2026-01-26,2025-05-09 09:00:00
+ORG100530,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2022-10-10,2025-04-23 09:00:00
+ORG100610,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2022-09-29,2025-08-17 09:00:00
+ORG100430,FI02,Tampere,Piia Halonen,Piia.Halonen@Nordicbank.Example,00358411824493,E1034,Senior Relationship Manager,2022-09-01,2025-09-24 09:00:00
+ORG100012,DK03,Odense,Benjamin Madsen,Benjamin.Madsen@Nordicbank.Example,+4579136193,E1029,Relationship Manager,2025-10-17,2025-04-22 09:00:00
+ORG100160,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Senior Relationship Manager,2022-09-14,2023-03-15 09:00:00
+ORG100534,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2024-03-30,2025-08-17 09:00:00
+ORG100501,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2025-01-22,2025-05-19 09:00:00
+ org100257,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2024-11-25,2025-02-22 09:00:00
+ORG100759,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2025-06-01,2025-08-19 09:00:00
+ORG900007,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2019-01-01,2024-06-01 09:00:00
+ORG100566,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2023-02-06,2025-02-21 09:00:00
+ORG100639,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-07-22,2025-08-07 09:00:00
+ORG100467,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2022-09-29,2025-02-24 09:00:00
+ORG100023,FI02,Tampere,Simo Andersson,Simo.Andersson@Nordicbank.Example,+358 487 40 1640,E1035,Senior Relationship Manager,2022-12-25,2025-11-14 09:00:00
+ORG100538,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2022-09-01,2025-07-20 09:00:00
+ org100272,DK02,Aarhus,Jannie Andresen,Jannie.Andresen@Nordicbank.Example,+4570647468,E1026,Customer Responsible,2023-09-30,2025-11-10 09:00:00
+ORG100110,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2024-09-11,2025-08-07 09:00:00
+ORG100548,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2023-11-22,2025-11-08 09:00:00
+ORG100358,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2024-07-07,2025-02-02 09:00:00
+ORG100007,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2024-07-21,2025-10-27 09:00:00
+ORG100463,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-12-12,2025-12-18 09:00:00
+ORG100330,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2023-03-12,2025-10-02 09:00:00
+ORG100168,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2026-03-13,2025-01-09 09:00:00
+ORG100438,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2024-03-03,2025-04-15 09:00:00
+ORG100796,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2023-12-28,2025-12-07 09:00:00
+ORG100537,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2023-06-25,2025-08-26 09:00:00
+ORG100259,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2023-07-13,2025-06-25 09:00:00
+ORG100349,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2025-10-05,2025-04-05 09:00:00
+ORG100529,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2025-10-28,2025-08-18 09:00:00
+ORG100071,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2025-01-03,2025-01-22 09:00:00
+ORG100254,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2024-04-01,2025-10-20 09:00:00
+ORG100003,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2023-01-08,2025-06-12 09:00:00
+ORG100476,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2022-11-16,2025-06-22 09:00:00
+ORG100551,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2023-11-28,2025-01-18 09:00:00
+ORG100132,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2024-06-29,2025-12-11 09:00:00
+ORG100785,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2024-06-19,2025-03-26 09:00:00
+ORG100745,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2024-03-17,2025-10-12 09:00:00
+ORG100453,NO04,Stavanger,Linda Ahmed,Linda.Ahmed@Nordicbank.Example,+4742269166,E1012,Customer Responsible,2022-12-21,2025-08-21 09:00:00
+ORG100794,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2023-07-11,2025-03-12 09:00:00
+ORG100034,NO03,Trondheim,Bjørn Ahmed,Bjorn.Ahmed@Nordicbank.Example,+47 403 05 641,E1009,Corporate Banker,2024-08-09,2025-03-27 09:00:00
+ORG100783,FI02,Tampere,Simo Andersson,Simo.Andersson@Nordicbank.Example,+358 487 40 1640,E1035,Senior Relationship Manager,2025-06-02,2025-03-22 09:00:00
+ORG100311,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2023-07-08,2025-03-09 09:00:00
+ORG100085,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2025-05-17,2025-08-04 09:00:00
+ORG100173,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2025-02-05,2025-07-19 09:00:00
+ORG100500,SE03,Malmö,Joakim Lindberg,Joakim.Lindberg@Nordicbank.Example,004678299737,E1021,Senior Relationship Manager,2023-06-18,2025-01-12 09:00:00
+ORG100425,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2024-04-09,2025-04-13 09:00:00
+ORG100157,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2026-02-25,2025-08-22 09:00:00
+ORG100304,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2025-11-13,2025-03-07 09:00:00
+ORG100503,SE03,Malmö,Joakim Lindberg,Joakim.Lindberg@Nordicbank.Example,004678299737,E1021,Senior Relationship Manager,2023-04-13,2025-03-27 09:00:00
+ORG100366,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2024-04-01,2025-01-20 09:00:00
+ORG100124,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2026-02-23,2025-10-12 09:00:00
+ORG100685,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2023-01-27,2025-07-21 09:00:00
+ORG100599,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2023-12-29,2025-06-25 09:00:00
+ORG100072,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2024-12-27,2025-08-27 09:00:00
+ORG100728,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2025-09-19,2025-10-15 09:00:00
+ORG100091,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2025-09-23,2025-06-14 09:00:00
+ORG100360,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2023-06-04,2025-01-28 09:00:00
+ORG100694,FI02,Tampere,Simo Andersson,Simo.Andersson@Nordicbank.Example,+358 487 40 1640,E1035,Senior Relationship Manager,2022-11-30,2025-05-11 09:00:00
+ORG100650,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2025-10-29,2025-06-21 09:00:00
+ org100481,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2023-06-08,2025-06-02 09:00:00
+ORG900002,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2019-01-01,2024-06-01 09:00:00
+ORG100381,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2023-02-27,2025-05-11 09:00:00
+ORG100059,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2024-05-30,2025-03-25 09:00:00
+ORG100121,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-10-20,2025-06-01 09:00:00
+ORG100096,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2025-12-04,2025-11-13 09:00:00
+ORG100506,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-06-08,2025-05-03 09:00:00
+ORG100076,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2024-06-11,2025-05-23 09:00:00
+ORG100560,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2025-04-07,2025-09-07 09:00:00
+ORG100214,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2025-01-27,2025-02-03 09:00:00
+ORG100676,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2024-01-15,2025-12-16 09:00:00
+ORG100571,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2025-04-18,2025-06-11 09:00:00
+ORG100370,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2022-09-19,2025-07-28 09:00:00
+ORG100580,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2025-07-04,2025-07-21 09:00:00
+ORG100462,FI03,Turku,Jussi Mattsson,Jussi.Mattsson@Nordicbank.Example,+358 426 02 5634,E1039,Relationship Manager,2023-11-01,2025-06-05 09:00:00
+ORG100263,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2025-11-08,2025-10-09 09:00:00
+ORG100605,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2024-06-16,2025-06-05 09:00:00
+ORG100595,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2023-12-03,2025-09-09 09:00:00
+ORG100314,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2024-03-27,2025-07-16 09:00:00
+ORG100154,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2024-04-10,2025-10-04 09:00:00
+ORG100379,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-08-17,2025-11-09 09:00:00
+ORG100494,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2025-08-09,2025-04-22 09:00:00
+ORG100184,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2024-07-06,2025-05-03 09:00:00
+ORG900001,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2019-01-01,2024-06-01 09:00:00
+ORG100243,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2023-04-04,2025-07-17 09:00:00
+ORG100221,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2023-12-07,2025-08-06 09:00:00
+ORG100429,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2023-01-12,2025-09-19 09:00:00
+ORG100251,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2022-12-21,2025-12-17 09:00:00
+ORG100357,FI03,Turku,Antero Ikonen,Antero.Ikonen@Nordicbank.Example,+358 405 98 2620,E1037,Relationship Manager,2024-08-22,2025-10-13 09:00:00
+ORG100650,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Relationship Manager,2025-10-29,2023-03-15 09:00:00
+ORG100403,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2023-05-12,2025-08-19 09:00:00
+ORG100619,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2024-06-11,2025-11-08 09:00:00
+ORG100763,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2025-08-12,2025-11-12 09:00:00
+ORG100310,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2022-10-07,2025-02-18 09:00:00
+ORG100374,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2024-08-03,2025-09-15 09:00:00
+ORG100022,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2022-10-17,2025-11-03 09:00:00
+ORG100193,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-01-25,2025-01-25 09:00:00
+ORG100058,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2023-08-14,2025-02-05 09:00:00
+ORG100339,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2025-10-09,2025-05-18 09:00:00
+ORG100624,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2026-02-15,2025-03-17 09:00:00
+ORG100316,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2025-11-21,2025-01-25 09:00:00
+ORG100262,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2024-01-18,2025-07-03 09:00:00
+ORG100641,SE01,Stockholm City,Isabella Moberg,Isabella.Moberg@Nordicbank.Example,79325288,E1015,Corporate Banker,2025-06-10,2025-03-17 09:00:00
+ORG100122,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2025-03-16,2025-05-03 09:00:00
+ORG100700,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2024-10-12,2025-05-21 09:00:00
+ORG100634,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2022-10-02,2025-06-19 09:00:00
+ org100800,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2024-06-01,2025-03-13 09:00:00
+ORG100485,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2024-01-18,2025-06-25 09:00:00
+ORG100100,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2022-10-17,2025-08-17 09:00:00
+ORG100498,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2022-11-05,2025-01-18 09:00:00
+ORG100554,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2023-09-21,2025-07-13 09:00:00
+ORG100514,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2025-10-14,2025-12-23 09:00:00
+ORG100336,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2024-10-30,2025-05-05 09:00:00
+ORG100740,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2023-01-12,2025-06-14 09:00:00
+ORG100112,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2024-08-02,2025-12-20 09:00:00
+ORG100547,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2023-06-28,2025-08-20 09:00:00
+ORG100159,FI03,Turku,Jussi Mattsson,Jussi.Mattsson@Nordicbank.Example,+358 426 02 5634,E1039,Relationship Manager,2025-05-11,2025-09-10 09:00:00
+ORG100131,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2025-05-18,2025-02-04 09:00:00
+ORG100592,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Corporate Banker,2024-09-19,2023-03-15 09:00:00
+ORG100416,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2024-05-15,2025-10-26 09:00:00
+ORG100211,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2025-05-02,2025-05-21 09:00:00
+ORG100064,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2023-06-15,2025-05-11 09:00:00
+ORG100051,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2024-02-18,2025-09-01 09:00:00
+ORG100329,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2023-11-20,2025-12-25 09:00:00
+ORG100141,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2026-01-31,2025-03-14 09:00:00
+ORG100312,SE02,Göteborg,Marie-Louise Axelsson,Marielouise.Axelsson@Nordicbank.Example,70154303,E1016,Relationship Manager,2025-12-19,2025-02-02 09:00:00
+ORG100426,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2022-12-07,2025-01-22 09:00:00
+ORG100276,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2022-12-08,2025-01-21 09:00:00
+ORG100021,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2023-01-21,2025-05-23 09:00:00
+ORG100302,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2026-01-07,2025-06-14 09:00:00
+ORG100292,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2024-12-11,2025-05-27 09:00:00
+ORG100224,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2022-09-28,2025-02-14 09:00:00
+ORG100491,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2024-08-02,2025-05-16 09:00:00
+ORG100683,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2023-06-15,2025-12-26 09:00:00
+ORG100636,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2023-04-08,2025-11-07 09:00:00
+ORG100269,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2024-01-31,2025-03-21 09:00:00
+ORG100584,NO02,Bergen,Synnøve Bakke,Synnove.Bakke@Nordicbank.Example,48161849,E1005,Corporate Banker,2023-11-15,2025-01-01 09:00:00
+ORG100227,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2024-11-07,2025-03-17 09:00:00
+ORG100546,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2023-12-20,2025-12-05 09:00:00
+ORG100742,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2025-01-30,2025-03-10 09:00:00
+ORG100573,SE01,Stockholm City,Elizabeth Andersen,Elizabeth.Andersen@Nordicbank.Example,+46 748 01 845,E1013,Customer Responsible,2024-10-21,2025-01-02 09:00:00
+ORG100522,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2024-12-19,2025-11-07 09:00:00
+ORG100209,NO02,Bergen,Nora Svendsen,Nora.Svendsen@Nordicbank.Example,43103413,E1006,Customer Responsible,2023-04-22,2025-03-18 09:00:00
+ORG100762,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2026-01-04,2025-06-23 09:00:00
+ORG100666,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2025-01-10,2025-03-01 09:00:00
+ORG100461,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2023-04-25,2025-09-13 09:00:00
+ORG100443,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2025-10-09,2025-06-21 09:00:00
+ORG100063,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2022-12-17,2025-08-22 09:00:00
+ORG100185,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2024-07-14,2025-10-21 09:00:00
+ORG100509,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2025-10-04,2025-12-26 09:00:00
+ORG100086,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2025-08-01,2025-04-01 09:00:00
+ORG100128,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2026-02-07,2025-10-22 09:00:00
+ORG100516,SE01,Stockholm City,Elizabeth Andersen,Elizabeth.Andersen@Nordicbank.Example,+46 748 01 845,E1013,Customer Responsible,2025-08-21,2025-12-26 09:00:00
+ORG100303,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2024-09-26,2025-04-11 09:00:00
+ORG100080,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-08-31,2025-10-17 09:00:00
+ORG100188,SE03,Malmö,Joakim Lindberg,Joakim.Lindberg@Nordicbank.Example,004678299737,E1021,Senior Relationship Manager,2025-06-04,2025-09-15 09:00:00
+ORG100417,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-03-07,2025-06-14 09:00:00
+ORG100574,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2026-02-01,2025-09-04 09:00:00
+ORG100356,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-05-28,2025-01-09 09:00:00
+ORG100697,SE02,Göteborg,Joakim Karlsson,Joakim.Karlsson@Nordicbank.Example,+4678346578,E1018,Senior Relationship Manager,2024-09-01,2025-01-21 09:00:00
+ORG100169,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2025-06-05,2025-06-10 09:00:00
+ org100751,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2023-10-08,2025-06-21 09:00:00
+ORG100649,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2023-07-29,2025-10-06 09:00:00
+ORG100654,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-10-24,2025-10-24 09:00:00
+ORG100119,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2024-05-03,2025-08-05 09:00:00
+ORG100174,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2025-09-30,2025-05-08 09:00:00
+ORG100202,SE03,Malmö,Anders Ekelund,Anders.Ekelund@Nordicbank.Example,+46 715 09 839,E1019,Relationship Manager,2025-11-23,2025-02-02 09:00:00
+ORG100659,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2025-05-06,2025-02-24 09:00:00
+ORG100222,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2024-11-18,2025-09-09 09:00:00
+ORG100215,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2026-03-14,2025-03-20 09:00:00
+ORG100623,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2025-10-07,2025-07-05 09:00:00
+ORG100539,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2024-03-13,2025-09-16 09:00:00
+ORG100746,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2024-03-30,2025-11-17 09:00:00
+ORG100575,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2023-05-22,2025-07-26 09:00:00
+ORG100056,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2024-01-27,2025-05-23 09:00:00
+ORG100399,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2022-09-01,2025-03-05 09:00:00
+ORG100377,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2025-04-16,2025-07-15 09:00:00
+ORG100407,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2024-03-21,2025-09-23 09:00:00
+ORG100564,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2026-01-30,2025-07-03 09:00:00
+ORG100419,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2022-09-18,2025-01-06 09:00:00
+ORG100415,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2024-08-12,2025-03-01 09:00:00
+ORG100322,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2023-10-16,2025-12-14 09:00:00
+ORG100710,SE03,Malmö,Anders Ekelund,Anders.Ekelund@Nordicbank.Example,+46 715 09 839,E1019,Relationship Manager,2023-09-18,2025-11-23 09:00:00
+ORG100563,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2022-10-23,2025-09-01 09:00:00
+ORG100597,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2023-03-18,2025-09-08 09:00:00
+ORG100283,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2023-07-18,2025-09-12 09:00:00
+ORG100258,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2025-08-09,2025-08-22 09:00:00
+ORG100464,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2024-11-05,2025-12-10 09:00:00
+ORG100055,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2024-05-09,2025-12-20 09:00:00
+ORG100674,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2023-05-25,2025-02-08 09:00:00
+ORG100637,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2022-10-04,2025-12-12 09:00:00
+ORG100234,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2023-10-26,2025-03-01 09:00:00
+ORG100392,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2023-01-30,2025-04-14 09:00:00
+ORG100150,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2024-03-30,2025-06-13 09:00:00
+ org100748,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2025-03-30,2025-01-27 09:00:00
+ORG100706,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2024-02-17,2025-01-20 09:00:00
+ORG100577,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2024-08-12,2025-05-01 09:00:00
+ORG100089,DK03,Odense,Tom Andersen,Tom.Andersen@Nordicbank.Example,+45 797 88 208,E1028,Senior Relationship Manager,2023-03-23,2025-08-12 09:00:00
+ORG100223,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2022-10-07,2025-11-15 09:00:00
+ org100301,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2024-09-22,2025-11-01 09:00:00
+ORG100642,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2023-07-18,2025-01-11 09:00:00
+ORG100046,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2026-01-14,2025-04-02 09:00:00
+ORG100178,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2025-08-26,2025-05-10 09:00:00
+ORG100306,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2025-11-07,2025-04-16 09:00:00
+ORG100579,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2024-10-24,2025-01-09 09:00:00
+ORG100395,DK02,Aarhus,Danny Dam,Danny.Dam@Nordicbank.Example,004573430980,E1027,Relationship Manager,2024-06-09,2025-02-15 09:00:00
+ org100143,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2024-03-13,2025-08-01 09:00:00
+ORG100166,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-06-18,2025-05-01 09:00:00
+ORG100769,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2026-01-29,2025-08-26 09:00:00
+ORG100663,DK02,Aarhus,Danny Dam,Danny.Dam@Nordicbank.Example,004573430980,E1027,Relationship Manager,2024-01-20,2025-06-19 09:00:00
+ORG100628,FI03,Turku,Antero Ikonen,Antero.Ikonen@Nordicbank.Example,+358 405 98 2620,E1037,Relationship Manager,2022-09-09,2025-09-16 09:00:00
+ORG100483,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2022-12-13,2025-09-28 09:00:00
+ org100284,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2024-03-14,2025-10-18 09:00:00
+ORG100531,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2025-03-15,2025-01-14 09:00:00
+ORG100207,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2022-12-03,2025-11-17 09:00:00
+ORG100010,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2024-05-23,2025-07-26 09:00:00
+ORG100520,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2022-09-07,2025-01-08 09:00:00
+ORG100354,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-09-25,2025-11-25 09:00:00
+ORG100266,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2024-02-07,2025-10-21 09:00:00
+ORG100274,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2025-04-17,2025-07-27 09:00:00
+ORG100398,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-06-05,2025-03-08 09:00:00
+ORG100167,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2023-10-15,2025-06-22 09:00:00
+ORG100289,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2025-08-20,2025-02-16 09:00:00
+ORG100582,SE01,Stockholm City,Elizabeth Andersen,Elizabeth.Andersen@Nordicbank.Example,+46 748 01 845,E1013,Customer Responsible,2024-09-08,2025-02-03 09:00:00
+ORG100312,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Relationship Manager,2025-12-19,2023-03-15 09:00:00
+ORG100413,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2024-02-13,2025-11-14 09:00:00
+ORG100455,NO04,Stavanger,Morten Lund,Morten.Lund@Nordicbank.Example,+4746965328,E1011,Relationship Manager,2026-02-11,2025-03-04 09:00:00
+ORG100344,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2024-10-30,2025-09-09 09:00:00
+ORG100323,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2023-02-13,2025-03-04 09:00:00
+ORG100690,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2025-02-16,2025-07-12 09:00:00
+ORG100102,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2025-12-02,2025-11-08 09:00:00
+ORG900003,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2019-01-01,2024-06-01 09:00:00
+ORG100296,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2023-03-16,2025-10-08 09:00:00
+ORG100686,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-03-31,2025-03-01 09:00:00
+ORG100487,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2025-01-07,2025-07-17 09:00:00
+ org100777,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2023-05-11,2025-02-14 09:00:00
+ORG100320,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2025-11-28,2025-07-25 09:00:00
+ORG100656,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2023-12-10,2025-05-18 09:00:00
+ORG100073,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2024-01-16,2025-04-16 09:00:00
+ORG100170,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2023-05-21,2025-11-25 09:00:00
+ORG100165,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2022-11-16,2025-02-02 09:00:00
+ORG100134,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2024-03-26,2025-09-09 09:00:00
+ORG100335,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2024-03-28,2025-10-21 09:00:00
+ORG100140,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2024-09-08,2025-11-17 09:00:00
+ORG100325,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2024-02-20,2025-06-07 09:00:00
+ORG100017,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2023-01-07,2025-06-08 09:00:00
+ORG100116,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2024-06-27,2025-12-08 09:00:00
+ORG100008,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2023-03-24,2025-06-13 09:00:00
+ORG100199,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2025-11-25,2025-07-05 09:00:00
+ORG100789,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2024-07-05,2025-05-03 09:00:00
+ORG100177,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2024-01-13,2025-07-13 09:00:00
+ORG100299,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2025-11-18,2025-09-23 09:00:00
+ORG100705,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2023-02-21,2025-02-02 09:00:00
+ORG100699,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2023-12-20,2025-01-23 09:00:00
+ORG100572,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2023-11-19,2025-04-18 09:00:00
+ORG100069,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2025-01-17,2025-12-03 09:00:00
+ORG100361,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2024-01-21,2025-07-15 09:00:00
+ORG100791,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2025-01-22,2025-07-03 09:00:00
+ORG100208,FI01,Helsinki,Marko Järvinen,Marko.Jarvinen@Nordicbank.Example,+358 483 84 2513,E1032,Senior Relationship Manager,2025-11-26,2025-12-07 09:00:00
+ORG100620,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2024-05-24,2025-08-23 09:00:00
+ORG100479,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2022-11-26,2025-05-25 09:00:00
+ORG100448,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2022-12-03,2025-11-05 09:00:00
+ORG100198,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2023-02-26,2025-10-10 09:00:00
+ORG100309,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2023-11-13,2025-10-24 09:00:00
+ORG100581,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-12-15,2025-03-27 09:00:00
+ORG100734,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2024-02-06,2025-08-03 09:00:00
+ORG100352,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2024-02-11,2025-12-27 09:00:00
+ORG100203,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-09-07,2025-11-04 09:00:00
+ORG100158,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2025-05-17,2025-08-22 09:00:00
+ORG100411,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2023-05-03,2025-02-08 09:00:00
+ORG100004,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2022-08-27,2025-02-15 09:00:00
+ORG100469,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2024-03-18,2025-08-14 09:00:00
+ORG100401,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2024-11-23,2025-02-21 09:00:00
+ORG100781,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-07-07,2025-10-23 09:00:00
+ORG100363,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2024-01-28,2025-03-22 09:00:00
+ORG100280,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2025-10-18,2025-06-06 09:00:00
+ORG100270,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2022-12-25,2025-09-07 09:00:00
+ORG100241,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2025-04-24,2025-06-17 09:00:00
+ORG100233,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2025-08-07,2025-08-14 09:00:00
+ORG100362,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2025-12-14,2025-04-07 09:00:00
+ORG100625,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2025-07-09,2025-03-07 09:00:00
+ORG100079,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Relationship Manager,2024-12-21,2023-03-15 09:00:00
+ORG100594,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2023-10-17,2025-02-08 09:00:00
+ORG100378,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2024-11-12,2025-03-01 09:00:00
+ORG100459,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2026-01-04,2025-07-01 09:00:00
+ org100621,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2023-06-29,2025-09-18 09:00:00
+ORG100490,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2024-08-08,2025-03-04 09:00:00
+ORG100120,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2026-02-16,2025-11-16 09:00:00
+ORG100226,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2025-03-01,2025-03-27 09:00:00
+ORG100108,NO04,Stavanger,Frode Engen,Frode.Engen@Nordicbank.Example,004747672423,E1010,Corporate Banker,2023-12-07,2025-07-13 09:00:00
+ORG100664,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2022-11-18,2025-10-09 09:00:00
+ORG100204,NO03,Trondheim,Kristin Karlsen,Kristin.Karlsen@Nordicbank.Example,42832764,E1008,Senior Relationship Manager,2024-05-01,2025-10-04 09:00:00
+ORG100516,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Customer Responsible,2025-08-21,2023-03-15 09:00:00
+ORG100679,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2025-10-05,2025-10-27 09:00:00
+ORG100347,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2024-04-04,2025-07-23 09:00:00
+ORG100726,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2023-01-21,2025-06-04 09:00:00
+ORG100437,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2024-05-10,2025-04-26 09:00:00
+ORG100633,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2024-09-05,2025-09-11 09:00:00
+ORG100601,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Senior Relationship Manager,2023-08-31,2023-03-15 09:00:00
+ORG100396,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2025-03-11,2025-05-25 09:00:00
+ORG100556,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2023-06-24,2025-12-08 09:00:00
+ORG100376,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-01-06,2025-09-09 09:00:00
+ORG100635,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2025-04-09,2025-03-10 09:00:00
+ORG100291,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2023-03-03,2025-06-01 09:00:00
+ org100035,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2023-12-11,2025-01-18 09:00:00
+ORG100544,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2023-08-06,2025-06-22 09:00:00
+ORG100782,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Customer Responsible,2023-04-06,2023-03-15 09:00:00
+ORG100281,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2023-03-29,2025-08-07 09:00:00
+ORG100015,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2024-05-31,2025-12-01 09:00:00
+ org100478,DK02,Aarhus,Danny Dam,Danny.Dam@Nordicbank.Example,004573430980,E1027,Relationship Manager,2023-09-28,2025-03-17 09:00:00
+ORG100324,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2023-09-30,2025-02-20 09:00:00
+ORG100446,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2023-01-03,2025-03-18 09:00:00
+ORG100600,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2023-02-19,2025-12-04 09:00:00
+ORG100527,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2023-04-22,2025-12-24 09:00:00
+ORG100101,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2023-10-09,2025-02-22 09:00:00
+ORG100761,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2024-01-31,2025-11-19 09:00:00
+ORG100353,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2025-05-28,2025-01-08 09:00:00
+ORG100543,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2023-10-26,2025-02-06 09:00:00
+ORG100097,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2023-10-31,2025-04-10 09:00:00
+ORG100032,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2026-02-06,2025-11-26 09:00:00
+ORG100717,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2023-04-22,2025-01-22 09:00:00
+ORG100338,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2025-07-07,2025-11-03 09:00:00
+ORG100570,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2024-11-30,2025-05-26 09:00:00
+ORG100607,FI03,Turku,Jussi Mattsson,Jussi.Mattsson@Nordicbank.Example,+358 426 02 5634,E1039,Relationship Manager,2023-01-21,2025-03-07 09:00:00
+ORG100179,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2022-11-08,2025-05-06 09:00:00
+ORG100609,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2025-09-24,2025-03-13 09:00:00
+ORG100496,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2025-01-15,2025-09-27 09:00:00
+ORG100285,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2025-06-05,2025-02-15 09:00:00
+ORG100709,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2023-11-06,2025-02-02 09:00:00
+ORG100109,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2025-08-19,2025-04-24 09:00:00
+ORG100271,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2025-02-07,2025-05-16 09:00:00
+ORG100772,DK03,Odense,Tom Andersen,Tom.Andersen@Nordicbank.Example,+45 797 88 208,E1028,Senior Relationship Manager,2023-12-18,2025-08-27 09:00:00
+ORG100442,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2024-03-24,2025-09-17 09:00:00
+ORG100255,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2023-12-09,2025-02-02 09:00:00
+ORG100382,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2022-12-31,2025-07-02 09:00:00
+ORG100768,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2023-02-19,2025-03-25 09:00:00
+ORG100383,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2022-10-01,2025-05-12 09:00:00
+ORG100394,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2024-08-25,2025-10-18 09:00:00
+ORG100550,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2023-05-10,2025-04-28 09:00:00
+ORG100009,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2026-01-12,2025-02-06 09:00:00
+ORG100332,SE02,Göteborg,Joakim Karlsson,Joakim.Karlsson@Nordicbank.Example,+4678346578,E1018,Senior Relationship Manager,2025-11-18,2025-02-02 09:00:00
+ORG100239,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2024-03-18,2025-03-15 09:00:00
+ORG100013,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2024-02-12,2025-06-05 09:00:00
+ORG100282,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2025-01-14,2023-03-15 09:00:00
+ORG100687,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2024-02-25,2025-08-25 09:00:00
+ORG100658,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2025-01-24,2025-02-19 09:00:00
+ORG100525,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2023-06-01,2025-05-05 09:00:00
+ORG100486,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2025-03-14,2025-03-02 09:00:00
+ORG100473,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2025-03-04,2025-12-25 09:00:00
+ORG100213,NO03,Trondheim,Irene Aune,Irene.Aune@Nordicbank.Example,004747525534,E1007,Relationship Manager,2023-06-25,2025-10-23 09:00:00
+ORG100653,DK03,Odense,Benjamin Madsen,Benjamin.Madsen@Nordicbank.Example,+4579136193,E1029,Relationship Manager,2024-08-29,2025-05-27 09:00:00
+ORG100602,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2026-01-23,2025-07-25 09:00:00
+ORG100217,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2024-10-24,2025-04-04 09:00:00
+ORG100677,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2024-03-17,2025-05-27 09:00:00
+ORG100451,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2025-07-16,2025-02-14 09:00:00
+ORG100541,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2025-07-27,2025-05-14 09:00:00
+ORG100104,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2025-11-26,2025-01-19 09:00:00
+ORG100315,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2024-07-01,2025-04-01 09:00:00
+ORG100428,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2025-10-05,2025-02-08 09:00:00
+ORG100603,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2024-11-24,2025-08-12 09:00:00
+ORG100057,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2025-03-31,2025-03-19 09:00:00
+ORG100427,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2025-05-11,2025-07-25 09:00:00
+ORG100070,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2025-10-12,2025-08-02 09:00:00
+ORG100043,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2024-07-11,2025-12-15 09:00:00
+ORG100088,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2026-01-15,2025-08-22 09:00:00
+ORG100622,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2025-09-29,2025-02-14 09:00:00
+ORG100405,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-12-03,2025-01-23 09:00:00
+ORG100749,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2022-12-02,2025-07-05 09:00:00
+ORG100545,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2025-07-25,2025-06-23 09:00:00
+ORG100433,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2025-11-29,2025-10-16 09:00:00
+ORG100435,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2024-06-03,2025-05-07 09:00:00
+ORG100423,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2024-06-11,2025-09-23 09:00:00
+ORG100606,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2022-09-01,2025-02-04 09:00:00
+ORG100138,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2024-04-30,2025-09-25 09:00:00
+ORG100200,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2023-12-10,2025-11-01 09:00:00
+ORG100682,SE01,Stockholm City,Lage Ericsson,Lage.Ericsson@Nordicbank.Example,77048281,E1014,Corporate Banker,2023-10-01,2025-09-15 09:00:00
+ORG100220,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2025-11-21,2025-02-10 09:00:00
+ORG100288,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2025-06-27,2025-09-10 09:00:00
+ORG100151,NO03,Trondheim,Irene Aune,Irene.Aune@Nordicbank.Example,004747525534,E1007,Relationship Manager,2022-11-24,2025-07-09 09:00:00
+ORG100341,FI03,Turku,Henna Mäkelä,Henna.Makela@Nordicbank.Example,433158692,E1038,Senior Relationship Manager,2024-03-13,2025-04-15 09:00:00
+ORG100472,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2023-07-11,2025-12-05 09:00:00
+ORG100114,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2025-09-02,2025-03-17 09:00:00
+ORG100672,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2023-09-26,2025-07-22 09:00:00
+ORG100716,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2022-11-29,2025-12-12 09:00:00
+ORG100738,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2024-01-28,2025-12-10 09:00:00
+ORG100505,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2025-07-12,2025-08-14 09:00:00
+ORG100294,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2024-03-12,2025-02-28 09:00:00
+ORG100393,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2025-11-15,2025-10-03 09:00:00
+ORG100364,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2023-10-14,2025-09-02 09:00:00
+ORG100412,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2025-01-21,2025-06-19 09:00:00
+ORG100369,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2026-01-17,2025-06-24 09:00:00
+ORG100615,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2023-01-12,2025-10-14 09:00:00
+ORG100115,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2022-09-17,2025-08-24 09:00:00
+ORG100105,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2024-09-15,2025-04-03 09:00:00
+ORG100420,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2024-02-19,2025-01-10 09:00:00
+ORG100194,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2023-11-03,2025-02-25 09:00:00
+ORG100731,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2025-02-27,2025-06-19 09:00:00
+ORG100617,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2025-01-10,2025-09-26 09:00:00
+ORG100054,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2024-06-29,2025-02-09 09:00:00
+ORG100029,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2025-03-29,2025-10-11 09:00:00
+ORG100067,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2025-09-26,2025-06-18 09:00:00
+ORG100630,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2023-02-18,2025-07-13 09:00:00
+ORG100721,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2024-09-14,2025-02-06 09:00:00
+ORG100313,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2023-06-01,2025-09-08 09:00:00
+ORG100391,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2023-07-05,2025-11-28 09:00:00
+ORG100359,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-08-20,2025-10-13 09:00:00
+ORG100601,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2023-08-31,2025-04-19 09:00:00
+ORG100163,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2024-07-19,2025-01-15 09:00:00
+ORG100190,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2024-03-12,2025-08-12 09:00:00
+ORG100248,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2024-07-02,2025-07-03 09:00:00
+ORG100643,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2023-11-13,2025-03-05 09:00:00
+ORG100737,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2025-06-16,2025-05-02 09:00:00
+ORG100161,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2025-04-15,2025-05-16 09:00:00
+ORG100130,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2023-05-19,2025-03-25 09:00:00
+ORG100327,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2024-11-12,2025-04-03 09:00:00
+ORG100646,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2025-01-30,2025-12-04 09:00:00
+ORG100216,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2025-07-10,2025-09-04 09:00:00
+ORG100106,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2023-03-21,2025-02-09 09:00:00
+ORG100558,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2025-12-11,2025-05-15 09:00:00
+ORG100526,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2025-02-01,2025-11-03 09:00:00
+ORG100730,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2025-03-06,2025-12-03 09:00:00
+ORG100232,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2024-01-03,2025-07-23 09:00:00
+ORG100752,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2024-07-31,2025-04-11 09:00:00
+ORG100186,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2023-08-13,2025-09-06 09:00:00
+ORG100576,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2023-06-25,2025-01-06 09:00:00
+ORG100596,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2023-06-29,2025-05-23 09:00:00
+ORG100201,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2023-08-10,2025-09-15 09:00:00
+ORG100468,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2025-12-12,2025-02-24 09:00:00
+ORG100457,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2023-02-03,2025-12-16 09:00:00
+ORG100784,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2024-05-01,2025-01-03 09:00:00
+ORG100733,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2025-04-02,2025-01-07 09:00:00
+ORG100492,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2023-09-28,2025-04-06 09:00:00
+ORG100052,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2025-11-27,2025-05-26 09:00:00
+ORG100421,SE03,Malmö,Joakim Lindberg,Joakim.Lindberg@Nordicbank.Example,004678299737,E1021,Senior Relationship Manager,2025-05-11,2025-10-01 09:00:00
+ORG100371,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2023-10-21,2025-12-24 09:00:00
+ORG100540,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2024-07-17,2025-02-08 09:00:00
+ORG100238,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2022-09-22,2025-08-02 09:00:00
+ORG100495,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2024-08-21,2025-03-04 09:00:00
+ORG100406,DK01,København,Kurt Lund,Kurt.Lund@Nordicbank.Example,+45 747 31 781,E1024,Relationship Manager,2024-09-30,2025-05-01 09:00:00
+ORG100444,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2023-06-27,2025-10-08 09:00:00
+ORG100533,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2022-08-30,2025-10-08 09:00:00
+ORG100373,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-01-10,2025-12-22 09:00:00
+ORG100155,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2023-10-09,2025-08-19 09:00:00
+ORG100775,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-06-30,2025-11-13 09:00:00
+ORG100689,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2025-01-01,2025-10-18 09:00:00
+ORG100030,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2022-11-20,2025-07-08 09:00:00
+ORG100242,SE01,Stockholm City,Lage Ericsson,Lage.Ericsson@Nordicbank.Example,77048281,E1014,Corporate Banker,2023-05-19,2025-04-12 09:00:00
+ORG100774,SE01,Stockholm City,Lage Ericsson,Lage.Ericsson@Nordicbank.Example,77048281,E1014,Corporate Banker,2024-02-09,2025-10-11 09:00:00
+ORG100328,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2022-11-25,2025-01-08 09:00:00
+ORG100765,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2023-07-15,2025-06-11 09:00:00
+ORG100695,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2025-09-03,2025-06-09 09:00:00
+ORG100384,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2024-09-10,2025-11-09 09:00:00
+ORG100565,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2024-05-01,2025-06-25 09:00:00
+ORG100521,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2025-06-07,2025-10-13 09:00:00
+ORG100031,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2022-12-20,2025-01-10 09:00:00
+ORG100798,NO03,Trondheim,Bjørn Ahmed,Bjorn.Ahmed@Nordicbank.Example,+47 403 05 641,E1009,Corporate Banker,2023-08-08,2025-12-08 09:00:00
+ORG100355,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2023-08-28,2025-02-01 09:00:00
+ORG100770,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2022-09-29,2025-08-19 09:00:00
+ORG100618,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2023-06-18,2025-09-16 09:00:00
+ORG100053,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2025-12-16,2025-02-02 09:00:00
+ORG100513,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2022-08-31,2025-12-17 09:00:00
+ORG100037,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2026-02-09,2025-02-16 09:00:00
+ORG100081,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2025-01-23,2025-07-07 09:00:00
+ORG100014,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2024-06-09,2025-02-01 09:00:00
+ORG100060,SE03,Malmö,Joakim Lindberg,Joakim.Lindberg@Nordicbank.Example,004678299737,E1021,Senior Relationship Manager,2022-12-04,2025-07-21 09:00:00
+ORG100583,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2025-10-14,2025-09-24 09:00:00
+ org100237,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2022-12-12,2025-05-02 09:00:00
+ORG100626,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2023-09-30,2025-02-02 09:00:00
+ORG100704,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2023-06-14,2025-03-16 09:00:00
+ORG100418,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2024-02-06,2025-08-10 09:00:00
+ORG100484,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2023-10-23,2025-05-11 09:00:00
+ORG100197,NO04,Stavanger,Frode Engen,Frode.Engen@Nordicbank.Example,004747672423,E1010,Corporate Banker,2024-02-09,2025-03-20 09:00:00
+ORG100389,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2026-02-07,2025-08-01 09:00:00
+ORG100409,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2024-03-28,2025-02-03 09:00:00
+ORG100598,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2024-01-21,2025-01-16 09:00:00
+ORG100047,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2026-02-21,2025-03-04 09:00:00
+ORG100493,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2024-08-01,2025-05-20 09:00:00
+ORG100025,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2024-05-28,2025-04-07 09:00:00
+ORG100477,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2023-08-29,2025-07-11 09:00:00
+ORG100260,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2024-11-25,2025-12-26 09:00:00
+ORG100568,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2024-03-03,2025-09-07 09:00:00
+ORG100670,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2026-03-14,2025-06-03 09:00:00
+ORG100747,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2023-09-06,2025-11-22 09:00:00
+ORG100497,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2023-05-08,2025-03-01 09:00:00
+ORG100553,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2024-06-02,2025-07-13 09:00:00
+ORG100250,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2022-10-21,2025-11-06 09:00:00
+ORG100126,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2023-06-18,2025-04-16 09:00:00
+ORG100586,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2025-08-31,2025-12-19 09:00:00
+ORG100210,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2023-06-04,2025-03-08 09:00:00
+ORG100180,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2023-01-15,2025-07-22 09:00:00
+ORG100718,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2023-12-10,2025-07-27 09:00:00
+ORG100001,SE01,Stockholm City,Isabella Moberg,Isabella.Moberg@Nordicbank.Example,79325288,E1015,Corporate Banker,2022-09-16,2025-02-20 09:00:00
+ORG100230,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2025-08-22,2025-10-16 09:00:00
+ORG100778,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2023-10-24,2025-05-19 09:00:00
+ORG100253,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2024-05-20,2025-10-19 09:00:00
+ORG100475,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2025-05-07,2025-01-19 09:00:00
+ org100111,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2025-03-29,2025-04-12 09:00:00
+ORG100432,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2025-07-09,2025-09-26 09:00:00
+ORG100006,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2024-10-12,2025-10-14 09:00:00
+ORG100264,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2025-07-23,2025-01-28 09:00:00
+ORG100771,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2022-12-21,2025-12-14 09:00:00
+ORG100318,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2024-01-28,2025-11-22 09:00:00
+ORG100604,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2023-07-12,2025-10-04 09:00:00
+ORG100061,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2023-09-11,2025-11-04 09:00:00
+ORG100350,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2023-04-13,2025-04-10 09:00:00
+ORG100049,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2023-10-04,2025-04-06 09:00:00
+ORG100715,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2024-06-04,2025-12-06 09:00:00
+ORG100307,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2025-10-16,2025-10-20 09:00:00
+ORG100662,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2025-06-28,2025-09-19 09:00:00
+ORG100640,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2024-05-07,2025-12-24 09:00:00
+ORG100290,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2024-11-27,2025-01-20 09:00:00
+ORG100739,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2025-03-15,2025-05-05 09:00:00
+ORG100767,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2024-06-25,2025-03-15 09:00:00
+ORG100317,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2025-02-06,2025-09-20 09:00:00
+ORG100799,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2025-08-30,2025-07-05 09:00:00
+ORG100797,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2023-07-21,2025-11-13 09:00:00
+ORG100684,FI03,Turku,Jussi Mattsson,Jussi.Mattsson@Nordicbank.Example,+358 426 02 5634,E1039,Relationship Manager,2024-10-17,2025-11-04 09:00:00
+ org100465,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2025-07-14,2025-06-27 09:00:00
+ORG100719,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2025-11-09,2025-02-07 09:00:00
+ORG100466,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2024-04-24,2025-10-20 09:00:00
+ORG100388,NO01,Oslo Sentrum,Arne Svendsen,Arne.Svendsen@Nordicbank.Example,+4740133890,E1002,Customer Responsible,2025-03-13,2025-08-15 09:00:00
+ORG100018,NO01,Oslo Sentrum,Marie Berge,Marie.Berge@Nordicbank.Example,+47 404 33 218,E1001,Customer Responsible,2023-01-19,2025-02-13 09:00:00
+ORG100660,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2024-12-26,2025-05-06 09:00:00
+ORG100044,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2023-06-08,2025-11-04 09:00:00
+ORG100722,NO01,Oslo Sentrum,Marie Berge,marie.berge@nordicbank.example,+47 404 33 218,E1001,Customer Responsible,2023-09-18,2025-01-09 09:00:00
+ORG100757,SE02,Göteborg,Marie-Louise Axelsson,marielouise.axelsson@nordicbank.example,70154303,E1016,Relationship Manager,2025-07-21,2025-09-22 09:00:00
+ORG100729,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2025-09-15,2025-02-03 09:00:00
+ORG100788,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2025-05-16,2025-04-06 09:00:00
+ORG100517,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2023-04-12,2025-06-07 09:00:00
+ORG100079,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2024-12-21,2025-06-13 09:00:00
+ORG100145,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2023-10-14,2025-06-07 09:00:00
+ORG100776,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2024-07-08,2025-01-08 09:00:00
+ORG100593,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2023-07-23,2025-07-10 09:00:00
+ORG100693,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2023-04-02,2025-04-01 09:00:00
+ORG100156,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2024-04-03,2025-05-04 09:00:00
+ORG100033,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2022-12-21,2025-01-15 09:00:00
+ORG100016,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2024-05-10,2025-04-15 09:00:00
+ORG100441,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2023-11-26,2025-06-03 09:00:00
+ORG100504,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2023-08-28,2025-05-04 09:00:00
+ORG100627,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2023-10-28,2025-08-06 09:00:00
+ORG100511,DK03,Odense,Tom Andersen,Tom.Andersen@Nordicbank.Example,+45 797 88 208,E1028,Senior Relationship Manager,2024-05-14,2025-03-17 09:00:00
+ORG100408,NO04,Stavanger,Morten Lund,Morten.Lund@Nordicbank.Example,+4746965328,E1011,Relationship Manager,2025-12-13,2025-10-08 09:00:00
+ORG100667,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2024-11-25,2025-04-03 09:00:00
+ORG100456,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2023-11-08,2025-05-25 09:00:00
+ORG100036,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2023-03-30,2025-01-11 09:00:00
+ORG100229,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2023-07-05,2025-05-10 09:00:00
+ORG100176,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2024-10-21,2025-11-21 09:00:00
+ org100245,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2025-05-08,2025-06-21 09:00:00
+ORG100535,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2025-03-11,2025-05-27 09:00:00
+ORG100348,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2022-09-18,2025-08-09 09:00:00
+ORG100160,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2022-09-14,2025-09-22 09:00:00
+ORG100736,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2025-02-16,2025-12-25 09:00:00
+ORG100724,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2023-05-14,2025-07-06 09:00:00
+ org100727,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2024-04-14,2025-08-19 09:00:00
+ORG100512,SE02,Göteborg,Marie-Louise Axelsson,Marielouise.Axelsson@Nordicbank.Example,70154303,E1016,Relationship Manager,2024-04-27,2025-05-15 09:00:00
+ORG100182,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Senior Relationship Manager,2025-01-30,2023-03-15 09:00:00
+ORG100562,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2022-10-11,2025-06-05 09:00:00
+ORG100219,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2023-05-14,2025-08-13 09:00:00
+ORG100212,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2024-06-16,2025-12-01 09:00:00
+ORG100066,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2024-09-20,2025-05-23 09:00:00
+ORG100011,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2025-02-27,2025-06-08 09:00:00
+ORG100631,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2026-02-24,2025-05-04 09:00:00
+ORG100158,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Relationship Manager,2025-05-17,2023-03-15 09:00:00
+ORG100182,SE03,Malmö,Joakim Lindberg,Joakim.Lindberg@Nordicbank.Example,004678299737,E1021,Senior Relationship Manager,2025-01-30,2025-05-05 09:00:00
+ORG100256,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2026-01-13,2025-12-06 09:00:00
+ORG100613,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2024-06-15,2025-12-11 09:00:00
+ORG100611,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2023-01-09,2025-04-02 09:00:00
+ORG100265,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2025-10-16,2025-08-25 09:00:00
+ORG100103,DK01,København,Arne Svendsen,arne.svendsen@nordicbank.example,+45 765 13 338,E1023,Customer Responsible,2025-07-30,2025-04-04 09:00:00
+ORG100171,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2023-01-21,2025-03-03 09:00:00
+ORG100585,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2023-03-01,2025-10-05 09:00:00
+ORG100319,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2026-02-05,2025-09-16 09:00:00
+ORG100524,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2023-06-26,2025-03-24 09:00:00
+ORG100714,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2026-02-08,2025-06-27 09:00:00
+ org100669,NO01,Oslo Sentrum,Roger Gulbrandsen,roger.gulbrandsen@nordicbank.example,+47 479 40 265,E1003,Senior Relationship Manager,2025-04-11,2025-08-28 09:00:00
+ORG100652,DK01,København,Hanne Christiansen,Hanne.Christiansen@Nordicbank.Example,+4571656670,E1022,Relationship Manager,2022-09-04,2025-01-07 09:00:00
+ORG100452,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2023-11-03,2025-09-05 09:00:00
+ORG100760,FI01,Helsinki,Marko Järvinen,marko.jarvinen@nordicbank.example,+358 483 84 2513,E1032,Senior Relationship Manager,2024-05-22,2025-06-19 09:00:00
+ORG100372,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2025-11-18,2025-02-18 09:00:00
+ORG100149,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2025-03-21,2025-05-22 09:00:00
+ORG100367,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2024-04-25,2025-05-26 09:00:00
+ORG100668,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2022-10-02,2025-03-05 09:00:00
+ORG100725,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2026-03-08,2025-05-09 09:00:00
+ORG100754,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2024-09-10,2025-02-17 09:00:00
+ORG100326,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2024-04-11,2025-07-02 09:00:00
+ORG100189,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2024-06-11,2025-09-22 09:00:00
+ORG100661,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2024-09-22,2025-10-04 09:00:00
+ORG100136,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2023-08-18,2025-01-27 09:00:00
+ORG100638,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2023-04-16,2025-10-09 09:00:00
+ORG100123,NO01,Oslo Sentrum,Arne Svendsen,Arne.Svendsen@Nordicbank.Example,+4740133890,E1002,Customer Responsible,2025-03-30,2025-11-25 09:00:00
+ORG100744,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Relationship Manager,2024-09-19,2023-03-15 09:00:00
+ORG100039,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2024-07-06,2025-05-11 09:00:00
+ORG100499,NO02,Bergen,Synnøve Bakke,Synnove.Bakke@Nordicbank.Example,48161849,E1005,Corporate Banker,2023-03-09,2025-04-01 09:00:00
+ORG100753,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2023-05-18,2025-09-27 09:00:00
+ORG100343,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2023-02-09,2025-05-28 09:00:00
+ORG100087,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2023-08-14,2025-03-09 09:00:00
+ORG100228,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2023-02-19,2025-04-16 09:00:00
+ORG100020,DK01,København,Hanne Christiansen,hanne.christiansen@nordicbank.example,+4571656670,E1022,Relationship Manager,2023-03-31,2025-04-04 09:00:00
+ORG100074,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2025-08-12,2025-06-07 09:00:00
+ORG100424,NO02,Bergen,Martin Bøe,martin.boe@nordicbank.example,+47 411 61 559,E1004,Relationship Manager,2023-05-09,2025-10-23 09:00:00
+ORG100077,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2023-08-28,2025-11-05 09:00:00
+ORG100385,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2022-10-16,2025-01-04 09:00:00
+ org100390,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2023-08-02,2025-01-12 09:00:00
+ORG100458,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2025-08-20,2025-03-28 09:00:00
+ORG100268,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2025-08-06,2025-12-15 09:00:00
+ORG100042,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2022-10-07,2025-01-13 09:00:00
+ORG100434,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2023-04-05,2025-09-15 09:00:00
+ORG100164,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2025-12-21,2025-04-10 09:00:00
+ORG100113,SE01,Stockholm City,Lage Ericsson,lage.ericsson@nordicbank.example,77048281,E1014,Corporate Banker,2024-08-02,2025-12-01 09:00:00
+ORG100308,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2026-01-01,2025-06-03 09:00:00
+ORG100782,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2023-04-06,2025-04-19 09:00:00
+ORG100050,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2025-09-15,2025-04-24 09:00:00
+ORG100515,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2024-06-08,2025-01-14 09:00:00
+ORG100019,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2024-08-11,2025-10-07 09:00:00
+ORG100045,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2024-02-08,2025-10-04 09:00:00
+ORG100277,NO03,Trondheim,Kristin Karlsen,kristin.karlsen@nordicbank.example,42832764,E1008,Senior Relationship Manager,2025-08-29,2025-04-02 09:00:00
+ORG100449,SE01,Stockholm City,Isabella Moberg,Isabella.Moberg@Nordicbank.Example,79325288,E1015,Corporate Banker,2022-10-21,2025-05-26 09:00:00
+ORG100093,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2023-05-21,2025-07-17 09:00:00
+ORG100279,NO01,Oslo Sentrum,Roger Gulbrandsen,Roger.Gulbrandsen@Nordicbank.Example,+47 479 40 265,E1003,Senior Relationship Manager,2023-11-30,2025-10-18 09:00:00
+ORG100680,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2024-12-31,2025-03-21 09:00:00
+ORG100118,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2025-10-23,2025-03-06 09:00:00
+ORG100333,FI02,Tampere,Jussi Liimatainen,Jussi.Liimatainen@Nordicbank.Example,427868011,E1036,Senior Relationship Manager,2025-06-28,2025-08-06 09:00:00
+ORG100588,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2022-10-21,2025-05-26 09:00:00
+ORG100471,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2023-10-04,2025-05-25 09:00:00
+ORG100735,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2024-10-25,2025-05-27 09:00:00
+ORG100135,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2023-06-22,2025-05-12 09:00:00
+ORG100002,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2024-01-20,2025-07-07 09:00:00
+ORG100707,SE03,Malmö,Emelie Lantz,emelie.lantz@nordicbank.example,+46 731 05 183,E1020,Customer Responsible,2025-05-05,2025-12-24 09:00:00
+ORG100231,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2024-02-21,2025-11-09 09:00:00
+ORG100698,NO03,Trondheim,Irene Aune,irene.aune@nordicbank.example,004747525534,E1007,Relationship Manager,2024-08-28,2025-11-16 09:00:00
+ORG100701,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2025-11-17,2025-10-27 09:00:00
+ORG100137,FI01,Helsinki,Helena Alanko,helena.alanko@nordicbank.example,+358446247510,E1031,Relationship Manager,2024-03-22,2025-05-23 09:00:00
+ORG100743,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2024-09-29,2025-12-15 09:00:00
+ORG100252,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2023-04-03,2025-05-05 09:00:00
+ORG100287,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2025-10-20,2025-10-03 09:00:00
+ORG100502,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2023-10-23,2025-12-15 09:00:00
+ORG100688,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2024-04-05,2025-12-14 09:00:00
+ORG100340,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2025-01-17,2025-08-23 09:00:00
+ORG100445,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2023-09-07,2025-07-08 09:00:00
+ORG100267,FI03,Turku,Henna Mäkelä,henna.makela@nordicbank.example,433158692,E1038,Senior Relationship Manager,2026-01-13,2025-03-11 09:00:00
+ORG100146,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2025-09-13,2025-04-13 09:00:00
+ORG100249,FI02,Tampere,Jussi Liimatainen,jussi.liimatainen@nordicbank.example,427868011,E1036,Senior Relationship Manager,2023-06-28,2025-07-16 09:00:00
+ORG100028,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2025-07-13,2025-02-15 09:00:00
+ORG100447,DK02,Aarhus,Jannie Andresen,jannie.andresen@nordicbank.example,+4570647468,E1026,Customer Responsible,2024-10-29,2025-07-22 09:00:00
+ORG100142,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2024-12-18,2025-11-05 09:00:00
+ORG100368,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2022-11-20,2025-04-25 09:00:00
+ORG100092,DK03,Odense,Tom Andersen,tom.andersen@nordicbank.example,+45 797 88 208,E1028,Senior Relationship Manager,2025-01-04,2025-03-13 09:00:00
+ORG100024,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2023-10-05,2025-06-27 09:00:00
+ORG100616,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2026-03-03,2025-05-23 09:00:00
+ORG100082,NO02,Bergen,Synnøve Bakke,synnove.bakke@nordicbank.example,48161849,E1005,Corporate Banker,2025-10-25,2025-05-14 09:00:00
+ORG100129,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2024-07-27,2025-04-17 09:00:00
+ORG100712,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2023-02-24,2025-05-28 09:00:00
+ORG100246,NO04,Stavanger,Morten Lund,morten.lund@nordicbank.example,+4746965328,E1011,Relationship Manager,2023-01-16,2025-06-15 09:00:00
+ORG100375,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2023-10-28,2025-10-24 09:00:00
+ORG100691,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2025-03-13,2025-12-01 09:00:00
+ORG100331,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2026-02-12,2025-12-08 09:00:00
+ORG100587,DK03,Odense,Karsten Schmidt,karsten.schmidt@nordicbank.example,+45 716 99 854,E1030,Corporate Banker,2024-01-03,2025-04-27 09:00:00
+ORG100665,NO04,Stavanger,Linda Ahmed,linda.ahmed@nordicbank.example,+4742269166,E1012,Customer Responsible,2022-09-30,2025-11-16 09:00:00
+ORG100510,DK02,Aarhus,Gustav Olsen,gustav.olsen@nordicbank.example,73267736,E1025,Senior Relationship Manager,2024-12-14,2025-12-03 09:00:00
+ORG100414,SE01,Stockholm City,Elizabeth Andersen,elizabeth.andersen@nordicbank.example,+46 748 01 845,E1013,Customer Responsible,2025-10-19,2025-11-14 09:00:00
+ORG900005,FI01,Helsinki,Kristiina Ojala,kristiina.ojala@nordicbank.example,484980841,E1033,Senior Relationship Manager,2019-01-01,2024-06-01 09:00:00
+ORG100084,FI03,Turku,Jussi Mattsson,jussi.mattsson@nordicbank.example,+358 426 02 5634,E1039,Relationship Manager,2022-12-18,2025-11-04 09:00:00
+ORG100474,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2022-11-23,2025-09-03 09:00:00
+ORG100235,FI02,Tampere,Piia Halonen,piia.halonen@nordicbank.example,00358411824493,E1034,Senior Relationship Manager,2024-08-11,2025-08-04 09:00:00
+ORG100507,FI03,Turku,Antero Ikonen,antero.ikonen@nordicbank.example,+358 405 98 2620,E1037,Relationship Manager,2025-06-07,2025-05-24 09:00:00
+ORG100038,DK02,Aarhus,Danny Dam,danny.dam@nordicbank.example,004573430980,E1027,Relationship Manager,2025-09-01,2025-07-24 09:00:00
+ORG100144,NO04,Stavanger,Frode Engen,frode.engen@nordicbank.example,004747672423,E1010,Corporate Banker,2024-10-30,2025-10-24 09:00:00
+ORG100552,FI01,Helsinki,Helena Alanko,Helena.Alanko@Nordicbank.Example,+358446247510,E1031,Relationship Manager,2024-05-22,2025-05-22 09:00:00
+ORG100645,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2024-06-14,2025-12-07 09:00:00
+ORG100240,SE01,Stockholm City,Isabella Moberg,isabella.moberg@nordicbank.example,79325288,E1015,Corporate Banker,2023-08-19,2025-05-01 09:00:00
+ORG100422,SE02,Göteborg,Joakim Karlsson,joakim.karlsson@nordicbank.example,+4678346578,E1018,Senior Relationship Manager,2025-08-09,2025-10-07 09:00:00
+ org100773,DK02,Aarhus,Danny Dam,Danny.Dam@Nordicbank.Example,004573430980,E1027,Relationship Manager,2024-11-01,2025-05-24 09:00:00
+ORG100696,DK01,København,Kurt Lund,kurt.lund@nordicbank.example,+45 747 31 781,E1024,Relationship Manager,2023-05-20,2025-01-20 09:00:00
+ORG100612,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2023-06-08,2025-05-14 09:00:00
+ORG100629,DK03,Odense,Benjamin Madsen,benjamin.madsen@nordicbank.example,+4579136193,E1029,Relationship Manager,2025-06-01,2025-12-28 09:00:00
+ORG100722,NO01,Oslo Sentrum,Arne Svendsen,arne.svendsen@nordicbank.example,+4740133890,E1002,Customer Responsible,2023-09-18,2023-03-15 09:00:00
+ORG100591,FI02,Tampere,Simo Andersson,simo.andersson@nordicbank.example,+358 487 40 1640,E1035,Senior Relationship Manager,2023-08-18,2025-04-04 09:00:00
+ORG100681,NO03,Trondheim,Bjørn Ahmed,bjorn.ahmed@nordicbank.example,+47 403 05 641,E1009,Corporate Banker,2024-08-23,2025-12-05 09:00:00
+ORG100337,FI01,Helsinki,Helena Alanko,Helena.Alanko@Nordicbank.Example,+358446247510,E1031,Relationship Manager,2022-10-20,2025-07-16 09:00:00
+ORG100273,SE03,Malmö,Joakim Lindberg,joakim.lindberg@nordicbank.example,004678299737,E1021,Senior Relationship Manager,2024-12-08,2025-04-24 09:00:00
+ORG100342,SE02,Göteborg,Roland Andersson,roland.andersson@nordicbank.example,+46 771 82 278,E1017,Customer Responsible,2024-07-03,2025-06-25 09:00:00
+ORG100094,DK02,Aarhus,Gustav Olsen,Gustav.Olsen@Nordicbank.Example,73267736,E1025,Senior Relationship Manager,2024-04-30,2025-01-15 09:00:00
+ORG100083,NO02,Bergen,Nora Svendsen,nora.svendsen@nordicbank.example,43103413,E1006,Customer Responsible,2025-04-12,2025-11-10 09:00:00
+ORG100711,SE03,Malmö,Anders Ekelund,anders.ekelund@nordicbank.example,+46 715 09 839,E1019,Relationship Manager,2025-11-07,2025-06-04 09:00:00

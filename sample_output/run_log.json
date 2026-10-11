@@ -1,0 +1,49 @@
+{
+  "run_timestamp": "2026-10-10T18:55:41",
+  "snapshot_date": "2026-09-30",
+  "data_source": "csv",
+  "high_risk_threshold": 8,
+  "rows_extracted": {
+    "loan_risk": 812,
+    "contacts": 813
+  },
+  "duplicates_removed": {
+    "loan_risk": 12,
+    "superseded_contacts": 15
+  },
+  "customers_reported": 800,
+  "high_risk_customers": 93,
+  "excel_files_written": 17,
+  "email_drafts": 33,
+  "data_quality_findings": {
+    "customers_without_responsible": [
+      "ORG100795",
+      "ORG100295",
+      "ORG100117",
+      "ORG100559",
+      "ORG100567",
+      "ORG100780",
+      "ORG100410",
+      "ORG100078",
+      "ORG100041"
+    ],
+    "contacts_for_customers_not_in_portfolio": [
+      "ORG900003",
+      "ORG900004",
+      "ORG900005",
+      "ORG900002",
+      "ORG900001",
+      "ORG900007",
+      "ORG900006"
+    ],
+    "customers_pending_rating": [
+      "ORG100578",
+      "ORG100723",
+      "ORG100268",
+      "ORG100465",
+      "ORG100670",
+      "ORG100686"
+    ],
+    "branch_mismatches": []
+  }
+}
